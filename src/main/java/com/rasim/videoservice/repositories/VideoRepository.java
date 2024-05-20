@@ -5,6 +5,6 @@ import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;
 
-public interface EventRepository extends CrudRepository<Video, Long> {
+public interface VideoRepository extends CrudRepository<Video, Long> {
     List<Video> findByCreatedById(Long userId);
 }
