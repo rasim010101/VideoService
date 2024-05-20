@@ -17,12 +17,10 @@ import java.util.Set;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/v1")
+@RequestMapping("/api/v1/admin")
 @Log4j2
 public class UserApiController {
 
-    private final String LIKED_PATH = "/liked";
-    private final String ADMIN_PATH = "/admin";
     private final String COMMENTED_PATH = "/commented";
     private final String USER_PATH = "/user";
     private final String ID_PATH = USER_PATH + "/{id}";

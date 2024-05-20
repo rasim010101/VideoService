@@ -65,9 +65,6 @@ public class VideoApiController {
                 case "description":
                     existingVideo.setDescription((String) value);
                     break;
-                case "location":
-                    existingVideo.setLocation((String) value);
-                    break;
                 case "date":
                     existingVideo.setDate((Date) value);
                     break;

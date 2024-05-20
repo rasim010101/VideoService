@@ -23,9 +23,6 @@ public class VideoDTO {
     @NotBlank(message = "Description is required")
     private String description;
 
-    @NotBlank(message = "Location is required")
-    private String location;
-
     @NotNull(message = "Date is required")
     private Date date;
 
