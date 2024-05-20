@@ -15,10 +15,10 @@ import java.util.Date;
 @Builder
 public class VideoDTO {
 
-    private Long eventId;
+    private Long videoId;
 
     @NotBlank(message = "Event name is required")
-    private String eventName;
+    private String videoName;
 
     @NotBlank(message = "Description is required")
     private String description;
